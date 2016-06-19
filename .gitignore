@@ -1,0 +1,6 @@
+# Ignore directories
+node_modules
+coverage
+
+# Ignore files
+npm-debug.log

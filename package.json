@@ -1,0 +1,33 @@
+{
+  "name": "mongodbindex",
+  "version": "1.0.0",
+  "description": "Ensure mongodb indeces in the start of your app",
+  "main": "index.js",
+  "author": "Dinos Theodorou",
+  "keywords": [
+    "mongodb",
+    "index",
+    "ensureindex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinostheo/mongodbindex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dinostheo/mongodbindex/issues"
+  },
+  "homepage": "https://github.com/dinostheo/mongodbindex",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec",
+    "test": "node_modules/.bin/mocha test/*.js -R spec"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.6"
+  }
+}
