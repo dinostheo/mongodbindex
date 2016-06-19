@@ -19,11 +19,13 @@
   "homepage": "https://github.com/dinostheo/mongodbindex",
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^2.13.0",
     "istanbul": "^0.4.3",
     "mocha": "^2.5.3"
   },
   "scripts": {
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec",
+    "lint": "node_modules/.bin/eslint --color index.js",
     "test": "node_modules/.bin/mocha test/*.js -R spec"
   },
   "license": "ISC",
