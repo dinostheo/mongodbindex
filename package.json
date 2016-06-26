@@ -1,6 +1,6 @@
 {
   "name": "mongodbindex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ensure mongodb indeces in the start of your app",
   "main": "index.js",
   "author": "Dinos Theodorou",
@@ -21,7 +21,8 @@
     "chai": "^3.5.0",
     "eslint": "^2.13.0",
     "istanbul": "^0.4.3",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
   },
   "scripts": {
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec",
